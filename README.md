@@ -7,6 +7,10 @@ Deskripsi
 Proyek ini merupakan perancangan dan simulasi sistem pengendalian cairan otomatis berbasis Arduino Uno yang menggunakan multi-sensor untuk memonitor dan mengontrol level, suhu, dan tekanan pada sebuah tangki. Sistem bekerja secara close loop dengan prioritas keselamatan dan divisualisasikan melalui LCD 16×2.
 
 Proyek dikembangkan sebagai bagian dari mata kuliah Pengantar Instrumentasi dan Automasi.
+Rangkaian
+
+<img width="936" height="767" alt="Screenshot 2025-12-30 195223" src="https://github.com/user-attachments/assets/35bc3348-cee8-43e3-bb39-5a97d3517aaf" />
+
 
 Fitur Utama
 -Kontrol level cairan otomatis menggunakan sensor ultrasonic
@@ -50,10 +54,18 @@ Logika Kerja Sistem
 -Diagram P&ID Sistem Pengendalian Cairan Otomatis Multi-Sensor
 -(Sensor: TT, LT, PT | Aktuator: Pump, Control Valve, Alarm)
 
+Diagram Blok
+
+![Diagram Blok UAS](https://github.com/user-attachments/assets/ccf2eb33-5ed7-447c-85a0-e060ba9f3383)
+
 Jenis Sistem Kendali
 -Close Loop Control System
 -Menggunakan feedback sensor untuk koreksi otomatis
 -Dilengkapi prioritas keselamatan (safety first)
+
+P&Id Diagram
+
+![P Id Uas PIA](https://github.com/user-attachments/assets/7515cefc-3207-44f7-b605-6116c9dbbf9b)
 
 Tujuan Pembelajaran
 -Memahami hubungan sensor – controller – actuator
